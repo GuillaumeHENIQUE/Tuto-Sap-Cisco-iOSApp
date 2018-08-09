@@ -9,46 +9,25 @@
 /* Begin PBXBuildFile section */
 		008434A77FC14BD216362B98 /* SalesOrderLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA8023D8C418447E83E99E /* SalesOrderLineItem.swift */; };
 		00F8E440C0EC89D7356A03F2 /* VHUnitQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DDD1AD915EDDCADF08AE6 /* VHUnitQuantity.swift */; };
-		045D3781F916DCB2778B3666 /* ProductSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853BC61B71057C11CFD90A07 /* ProductSet.storyboard */; };
-		09CB914956F5D147080700CA /* VHUnitWeightSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F3EE1213C5A36889AC3CBB /* VHUnitWeightSetMasterViewController.swift */; };
-		0CD6D7540A9ACD1CEB169E21 /* VHCurrencySetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6835859C589F93D48656BB6F /* VHCurrencySetDetailViewController.swift */; };
-		0DD4755276E338F5487299FA /* VHAddressTypeSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7520E0590018AC661317FF4 /* VHAddressTypeSet.storyboard */; };
+		0359FDD1211AF4C700B15633 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD0211AF4C700B15633 /* DashboardViewController.swift */; };
+		0359FDD3211AF59300B15633 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD2211AF59300B15633 /* Utils.swift */; };
 		11B2440686CD131670F4E003 /* VHCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFD2C05C244498D4BF5737 /* VHCountry.swift */; };
 		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
 		128604DA1E55B41600C698B5 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; };
 		128604DB1E55B43B00C698B5 /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		128B53061F8E667000E64DF6 /* SnapshotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128B53051F8E667000E64DF6 /* SnapshotViewController.swift */; };
-		12D066CF1F4DDB0E0075EBA4 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		12D066CF1F4DDB0E0075EBA4 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		12E07EF21E96851800460A94 /* CollectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E07EF11E96851800460A94 /* CollectionType.swift */; };
 		12E84FE31F4ECC4A0061C99E /* SAPFioriFlows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E84FE21F4ECC3E0061C99E /* SAPFioriFlows.framework */; };
 		12E84FE41F4ECC4A0061C99E /* SAPFioriFlows.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 12E84FE21F4ECC3E0061C99E /* SAPFioriFlows.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		12E84FE51F4ECF220061C99E /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E84FDE1F4EBD460061C99E /* OnboardingManager.swift */; };
-		15548AB847DEA17CA6268A99 /* VHProductTypeCodeSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1A47B46CA0E4213A8E661B /* VHProductTypeCodeSetDetailViewController.swift */; };
-		1826338E6C2D6E42CD9E471D /* VHCategorySet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDFDC4D3EFADF1E7CCC3DAA /* VHCategorySet.storyboard */; };
-		1872D1310CC4429E2E80A280 /* VHSexSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678E8456788E843FD502A76 /* VHSexSetDetailViewController.swift */; };
-		20FDCCFCEBB5FA8C5269A073 /* VHCategorySetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0558183F9498EDDD3E4F09A /* VHCategorySetMasterViewController.swift */; };
-		21004DFFAD9AF5F010C3E1DC /* SalesOrderSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72CA9F1866E74B806822504 /* SalesOrderSetMasterViewController.swift */; };
 		2A3E80555834D7E8BC084AEA /* VHCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CD1C4C2A6CC045714B2878 /* VHCurrency.swift */; };
-		2FC818441D8303745F982ECD /* VHUnitLengthSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5932C29876EB64330215CC /* VHUnitLengthSet.storyboard */; };
 		2FD2BBA6088325230789846B /* VHUnitLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AABA91303876AAB0390D1 /* VHUnitLength.swift */; };
-		31118B434150374DC7D9793B /* VHBPRoleSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7261908B2837BD1006E7D6DF /* VHBPRoleSet.storyboard */; };
 		36AE39B7C556A1FF31FCD175 /* CTString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E07512546E35AF85B2B415 /* CTString.swift */; };
-		3F7517AF7F29F3CD26EDEE88 /* VHUnitQuantitySet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0DD801B17FF3A3E8B842FBC /* VHUnitQuantitySet.storyboard */; };
-		3FF478B0C8A671C4A054B93D /* VHCountrySet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF3020CD0EC5B972584C1D9 /* VHCountrySet.storyboard */; };
-		41B759CA8B35E962CA7A7042 /* VHSexSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50B259B4FC6C70C6EFEBC15 /* VHSexSet.storyboard */; };
-		4963DE4D97A542DB4C8A8B6D /* BusinessPartnerSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D78D1DB71D9052FA9C3CBC2 /* BusinessPartnerSetDetailViewController.swift */; };
-		4A86E9B63A9E993F1B14812A /* VHCountrySetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A30274699996F8CE1B4BE6 /* VHCountrySetDetailViewController.swift */; };
-		4D33315229478BA9C3FA7550 /* VHAddressTypeSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058B91606A9CF41426F4FAF7 /* VHAddressTypeSetMasterViewController.swift */; };
-		4F4DBCCBFB42B65615A2EC61 /* SalesOrderSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6CAB5928732E4EA25400916 /* SalesOrderSet.storyboard */; };
-		523BE0A291B2151B956D94BA /* VHLanguageSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23106E542EEDC7EEB3B881A /* VHLanguageSetDetailViewController.swift */; };
 		58402857E4A27DD139137114 /* VHUnitWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A766643F0D4BA00A01B22 /* VHUnitWeight.swift */; };
-		59F380A7A023D0ED534F2858 /* VHAddressTypeSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5A2E0A26011D65155F86C6 /* VHAddressTypeSetDetailViewController.swift */; };
 		5BBD4F19831D54E7D4326DF2 /* SalesOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A4E7BBBE3A2FBB50E90CF6 /* SalesOrder.swift */; };
-		5E989BA3E8B8353E520ADBAE /* SalesOrderLineItemSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125FD1C061EC8D7D7057D66A /* SalesOrderLineItemSetMasterViewController.swift */; };
 		5F489F0C98262AC5B1D71FFF /* BusinessPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E64BF0EF1069355C91E6706 /* BusinessPartner.swift */; };
-		63234F632729F336D3154F63 /* VHUnitQuantitySetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9499B03278E489683A3E086D /* VHUnitQuantitySetMasterViewController.swift */; };
 		6660DFF6AE18D26F6B3E74FE /* VHSex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7270F1B44F698C744C704C /* VHSex.swift */; };
-		6D076DC041CC859020232BF1 /* SalesOrderLineItemSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0AA91479346EE6AE0784718 /* SalesOrderLineItemSet.storyboard */; };
 		755533981F25FD330017A1BC /* SAPOfflineOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */; };
 		755533991F25FD330017A1BC /* SAPOfflineOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		756192211DBE1A99007F562C /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561921A1DBE1A90007F562C /* SAPOData.framework */; };
@@ -65,46 +44,21 @@
 		7A26CA1C1F31BA8800B156B6 /* CellCreationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */; };
 		7A9F6FF61F3883D3000A1815 /* SAPFioriLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */; };
 		81AA11D9D38F097269EC2E1A /* GWSAMPLEBASICEntitiesStaticResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 599B205FD51F7C785CB15F6B /* GWSAMPLEBASICEntitiesStaticResolver.swift */; };
-		85B48CCD8D313B8640AB72FD /* VHCurrencySet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC97CAF4F8666CBCEDADF78D /* VHCurrencySet.storyboard */; };
-		86D3443668CB71D35A3CE7DB /* VHBPRoleSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE9BA6B2433FA470A7332A1 /* VHBPRoleSetDetailViewController.swift */; };
-		8A6A3164ABD53B18B3991F7E /* ProductSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70BEB1A721BD5F8BD4D20BD7 /* ProductSetDetailViewController.swift */; };
 		900620E3EE38A4A0FD576F52 /* GWSAMPLEBASICEntitiesMetadataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A79F912BC22B352A3B1456E /* GWSAMPLEBASICEntitiesMetadataParser.swift */; };
-		92158BEC1A562CDB8BDE5203 /* VHUnitLengthSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0063FFBD0E987A8C4ACAD52A /* VHUnitLengthSetDetailViewController.swift */; };
-		9853846289ACEFED54626E84 /* VHUnitQuantitySetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F59F96ED19A5EFF7F1646A9 /* VHUnitQuantitySetDetailViewController.swift */; };
 		98D7809B7F3D0FBE5D5E62C0 /* VHBPRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DACC6AE6E0BFBDC732EF8 /* VHBPRole.swift */; };
-		99EA6BAC766C9BAD1603A347 /* ContactSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE749BDE927A274BDCBC01C0 /* ContactSetMasterViewController.swift */; };
-		9E35DBDD0BB3195EC324B036 /* ContactSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2510696325B98AD68AC3B1DF /* ContactSetDetailViewController.swift */; };
 		9EF3FE199CAB13158E2FA9B3 /* VHAddressType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AFFDDED121A60BDC557E9 /* VHAddressType.swift */; };
-		A956813E7C96B6C45D88AE29 /* ContactSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C78314EEF6EEBAFC30FA558 /* ContactSet.storyboard */; };
-		ACED98D6DBA2C6806F09EC6F /* SalesOrderLineItemSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F96E42E0BF1747A6A6B095 /* SalesOrderLineItemSetDetailViewController.swift */; };
 		B0039F64DF0F1FCC0E69A8F9 /* GWSAMPLEBASICEntitiesMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CD3F0D9814251E2290AB15 /* GWSAMPLEBASICEntitiesMetadata.swift */; };
-		B3E5E2FDE8ECB6D4A818BACB /* VHProductTypeCodeSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3331185094650581E1E558CF /* VHProductTypeCodeSet.storyboard */; };
-		B409CF827C234CFE7BBC8FF4 /* VHBPRoleSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC6C95079FD82D27F863AA3 /* VHBPRoleSetMasterViewController.swift */; };
 		B4FAAA573183A21B289051CD /* CTAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D31821F8BFE6B038B79EE /* CTAddress.swift */; };
 		BCB5B56664022FFEA6DEA567 /* VHLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C05DCF496C1F4AAB50194 /* VHLanguage.swift */; };
-		BDEA472C4A75C6803C2EDF18 /* BusinessPartnerSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CB1CE36A3F0D9B2A401F9A /* BusinessPartnerSet.storyboard */; };
 		BE2ED539FE4171284B5B767B /* VHCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1697A404E612E78F55FBD502 /* VHCategory.swift */; };
 		BE76687E21BBB058AB2EA729 /* GWSAMPLEBASICEntitiesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF33CE14FFCB25297C5F2DB /* GWSAMPLEBASICEntitiesFactory.swift */; };
-		BEA86E8CE0ABC9DD299BA302 /* VHUnitWeightSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0566AD3FEF0E8E34CA6E48C9 /* VHUnitWeightSet.storyboard */; };
-		BFA77CE42A11A669CD70D3AC /* VHProductTypeCodeSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F50B48866E2501DC1FAD /* VHProductTypeCodeSetMasterViewController.swift */; };
-		C1CA9B73DAB5427A9E9CB512 /* ProductSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356FB667E39A50F6A17F9F9E /* ProductSetMasterViewController.swift */; };
-		C73A42F569418321D732D84A /* VHLanguageSet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D6F262F0E275A2B460692 /* VHLanguageSet.storyboard */; };
-		C7F872D345629C2623A6F886 /* BusinessPartnerSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8082D4FF3874CCF238C3963D /* BusinessPartnerSetMasterViewController.swift */; };
 		C948B58728BE769A4EEB7C6C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43133BBC829F2A3417692E3A /* Product.swift */; };
-		C976AC5213D54D79460F2814 /* VHUnitWeightSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7799BDBB1640734396EB75 /* VHUnitWeightSetDetailViewController.swift */; };
-		CBC961641C61025D5D4EE4CC /* VHCategorySetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB1AEA9F296E180B7D4BCB /* VHCategorySetDetailViewController.swift */; };
 		CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCA7A9B1E3778A9001AF49E /* Main.storyboard */; };
 		D41830812BAF0E9D6643B025 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6699DD1204F237B7C869B01 /* Contact.swift */; };
-		DB2E526206083275835D1A8C /* SalesOrderSetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1184731A5831D38BEBE320 /* SalesOrderSetDetailViewController.swift */; };
-		E72B405E26E1399D0B5787ED /* VHUnitLengthSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A534B14DCD6D4ECEA70BF9EB /* VHUnitLengthSetMasterViewController.swift */; };
 		E75C1761AE64D9E6B0AC7E0C /* GWSAMPLEBASICEntitiesMetadataText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D5C76DC604B6FED433207C /* GWSAMPLEBASICEntitiesMetadataText.swift */; };
 		E8A983365540EA872DD7D40B /* GWSAMPLEBASICEntitiesMetadataChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB540BE5847CAF5DA8C346F2 /* GWSAMPLEBASICEntitiesMetadataChanges.swift */; };
 		E958556C5D32549701DAEC99 /* GWSAMPLEBASICEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C9DD6CCFC8C671065B5678 /* GWSAMPLEBASICEntities.swift */; };
-		E9D6F0AAA337F28B38E35884 /* VHCountrySetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488D92BA20A6AC047670F0E /* VHCountrySetMasterViewController.swift */; };
 		EB7DD6D282E983C97D7DACB9 /* VHProductTypeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CEB3B8FE49D5733D7F6906 /* VHProductTypeCode.swift */; };
-		EBF6E4291D91F2509A21D066 /* VHLanguageSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F70AF352DDF9A655BB8825 /* VHLanguageSetMasterViewController.swift */; };
-		F30B146F78296E333E0BE587 /* VHCurrencySetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D924028BACA0366B40E9D7BC /* VHCurrencySetMasterViewController.swift */; };
-		FCA4889C9A73D71B96933242 /* VHSexSetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE3643AA056606007BB3ED /* VHSexSetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,13 +81,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0063FFBD0E987A8C4ACAD52A /* VHUnitLengthSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitLengthSetDetailViewController.swift; path = VHUnitLengthSet/VHUnitLengthSetDetailViewController.swift; sourceTree = "<group>"; };
 		01CEB3B8FE49D5733D7F6906 /* VHProductTypeCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHProductTypeCode.swift; path = "Proxy Classes/es5_ios/public/VHProductTypeCode.swift"; sourceTree = "<group>"; };
-		04A2F50B48866E2501DC1FAD /* VHProductTypeCodeSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHProductTypeCodeSetMasterViewController.swift; path = VHProductTypeCodeSet/VHProductTypeCodeSetMasterViewController.swift; sourceTree = "<group>"; };
-		058B91606A9CF41426F4FAF7 /* VHAddressTypeSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHAddressTypeSetMasterViewController.swift; path = VHAddressTypeSet/VHAddressTypeSetMasterViewController.swift; sourceTree = "<group>"; };
-		0C7799BDBB1640734396EB75 /* VHUnitWeightSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitWeightSetDetailViewController.swift; path = VHUnitWeightSet/VHUnitWeightSetDetailViewController.swift; sourceTree = "<group>"; };
-		0D78D1DB71D9052FA9C3CBC2 /* BusinessPartnerSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessPartnerSetDetailViewController.swift; path = BusinessPartnerSet/BusinessPartnerSetDetailViewController.swift; sourceTree = "<group>"; };
-		125FD1C061EC8D7D7057D66A /* SalesOrderLineItemSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderLineItemSetMasterViewController.swift; path = SalesOrderLineItemSet/SalesOrderLineItemSetMasterViewController.swift; sourceTree = "<group>"; };
+		0359FDD0211AF4C700B15633 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		0359FDD2211AF59300B15633 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
 		128604D91E55B41600C698B5 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
 		128B53051F8E667000E64DF6 /* SnapshotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotViewController.swift; sourceTree = "<group>"; };
@@ -143,31 +93,15 @@
 		1697A404E612E78F55FBD502 /* VHCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCategory.swift; path = "Proxy Classes/es5_ios/public/VHCategory.swift"; sourceTree = "<group>"; };
 		1D1DDD1AD915EDDCADF08AE6 /* VHUnitQuantity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitQuantity.swift; path = "Proxy Classes/es5_ios/public/VHUnitQuantity.swift"; sourceTree = "<group>"; };
 		247AFFDDED121A60BDC557E9 /* VHAddressType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHAddressType.swift; path = "Proxy Classes/es5_ios/public/VHAddressType.swift"; sourceTree = "<group>"; };
-		2510696325B98AD68AC3B1DF /* ContactSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactSetDetailViewController.swift; path = ContactSet/ContactSetDetailViewController.swift; sourceTree = "<group>"; };
-		286E051AF36A9AB51FC0711E /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHCountrySet.storyboard; sourceTree = "<group>"; };
-		28ED97F699D9C3989CA57E53 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHCurrencySet.storyboard; sourceTree = "<group>"; };
-		2A5B1127C762A05ED7FCD337 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProductSet.storyboard; sourceTree = "<group>"; };
-		2D3A124719C4423508AF1882 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHProductTypeCodeSet.storyboard; sourceTree = "<group>"; };
 		2D7270F1B44F698C744C704C /* VHSex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHSex.swift; path = "Proxy Classes/es5_ios/public/VHSex.swift"; sourceTree = "<group>"; };
-		356FB667E39A50F6A17F9F9E /* ProductSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductSetMasterViewController.swift; path = ProductSet/ProductSetMasterViewController.swift; sourceTree = "<group>"; };
 		3A8D31821F8BFE6B038B79EE /* CTAddress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTAddress.swift; path = "Proxy Classes/es5_ios/public/CTAddress.swift"; sourceTree = "<group>"; };
-		3AE9BA6B2433FA470A7332A1 /* VHBPRoleSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHBPRoleSetDetailViewController.swift; path = VHBPRoleSet/VHBPRoleSetDetailViewController.swift; sourceTree = "<group>"; };
-		3B108C96692E68C50A669BE8 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHUnitLengthSet.storyboard; sourceTree = "<group>"; };
 		43133BBC829F2A3417692E3A /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "Proxy Classes/es5_ios/public/Product.swift"; sourceTree = "<group>"; };
 		47CD1C4C2A6CC045714B2878 /* VHCurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCurrency.swift; path = "Proxy Classes/es5_ios/public/VHCurrency.swift"; sourceTree = "<group>"; };
-		4F59F96ED19A5EFF7F1646A9 /* VHUnitQuantitySetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitQuantitySetDetailViewController.swift; path = VHUnitQuantitySet/VHUnitQuantitySetDetailViewController.swift; sourceTree = "<group>"; };
 		599B205FD51F7C785CB15F6B /* GWSAMPLEBASICEntitiesStaticResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesStaticResolver.swift; path = "Proxy Classes/es5_ios/internal/GWSAMPLEBASICEntitiesStaticResolver.swift"; sourceTree = "<group>"; };
 		5E64BF0EF1069355C91E6706 /* BusinessPartner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessPartner.swift; path = "Proxy Classes/es5_ios/public/BusinessPartner.swift"; sourceTree = "<group>"; };
 		64D5C76DC604B6FED433207C /* GWSAMPLEBASICEntitiesMetadataText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesMetadataText.swift; path = "Proxy Classes/es5_ios/internal/GWSAMPLEBASICEntitiesMetadataText.swift"; sourceTree = "<group>"; };
 		65A4E7BBBE3A2FBB50E90CF6 /* SalesOrder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrder.swift; path = "Proxy Classes/es5_ios/public/SalesOrder.swift"; sourceTree = "<group>"; };
-		6835859C589F93D48656BB6F /* VHCurrencySetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCurrencySetDetailViewController.swift; path = VHCurrencySet/VHCurrencySetDetailViewController.swift; sourceTree = "<group>"; };
 		6A79F912BC22B352A3B1456E /* GWSAMPLEBASICEntitiesMetadataParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesMetadataParser.swift; path = "Proxy Classes/es5_ios/internal/GWSAMPLEBASICEntitiesMetadataParser.swift"; sourceTree = "<group>"; };
-		6E1184731A5831D38BEBE320 /* SalesOrderSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderSetDetailViewController.swift; path = SalesOrderSet/SalesOrderSetDetailViewController.swift; sourceTree = "<group>"; };
-		6EBE3643AA056606007BB3ED /* VHSexSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHSexSetMasterViewController.swift; path = VHSexSet/VHSexSetMasterViewController.swift; sourceTree = "<group>"; };
-		70963A20D59DB1ADAB682BA2 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHLanguageSet.storyboard; sourceTree = "<group>"; };
-		70BEB1A721BD5F8BD4D20BD7 /* ProductSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductSetDetailViewController.swift; path = ProductSet/ProductSetDetailViewController.swift; sourceTree = "<group>"; };
-		71483973AAA1041F428914DB /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SalesOrderLineItemSet.storyboard; sourceTree = "<group>"; };
-		71D3AE2D0EBB0B2AA2630EC0 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/BusinessPartnerSet.storyboard; sourceTree = "<group>"; };
 		755533971F25FD2A0017A1BC /* SAPOfflineOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOfflineOData.framework; sourceTree = "<group>"; };
 		7561921A1DBE1A90007F562C /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
 		7569DA511E5C716A00C5D751 /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
@@ -182,44 +116,18 @@
 		7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCreationHelper.swift; sourceTree = "<group>"; };
 		7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAPFioriLoadingIndicator.swift; sourceTree = "<group>"; };
 		7CF33CE14FFCB25297C5F2DB /* GWSAMPLEBASICEntitiesFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesFactory.swift; path = "Proxy Classes/es5_ios/internal/GWSAMPLEBASICEntitiesFactory.swift"; sourceTree = "<group>"; };
-		8082D4FF3874CCF238C3963D /* BusinessPartnerSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessPartnerSetMasterViewController.swift; path = BusinessPartnerSet/BusinessPartnerSetMasterViewController.swift; sourceTree = "<group>"; };
-		80A30274699996F8CE1B4BE6 /* VHCountrySetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCountrySetDetailViewController.swift; path = VHCountrySet/VHCountrySetDetailViewController.swift; sourceTree = "<group>"; };
 		81C9DD6CCFC8C671065B5678 /* GWSAMPLEBASICEntities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntities.swift; path = "Proxy Classes/es5_ios/public/GWSAMPLEBASICEntities.swift"; sourceTree = "<group>"; };
-		8B5A2E0A26011D65155F86C6 /* VHAddressTypeSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHAddressTypeSetDetailViewController.swift; path = VHAddressTypeSet/VHAddressTypeSetDetailViewController.swift; sourceTree = "<group>"; };
-		8DC6C95079FD82D27F863AA3 /* VHBPRoleSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHBPRoleSetMasterViewController.swift; path = VHBPRoleSet/VHBPRoleSetMasterViewController.swift; sourceTree = "<group>"; };
-		8F8FDBF2B989523B4B550DD7 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHSexSet.storyboard; sourceTree = "<group>"; };
-		9488D92BA20A6AC047670F0E /* VHCountrySetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCountrySetMasterViewController.swift; path = VHCountrySet/VHCountrySetMasterViewController.swift; sourceTree = "<group>"; };
-		9499B03278E489683A3E086D /* VHUnitQuantitySetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitQuantitySetMasterViewController.swift; path = VHUnitQuantitySet/VHUnitQuantitySetMasterViewController.swift; sourceTree = "<group>"; };
-		9FEB1AEA9F296E180B7D4BCB /* VHCategorySetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCategorySetDetailViewController.swift; path = VHCategorySet/VHCategorySetDetailViewController.swift; sourceTree = "<group>"; };
 		A0E07512546E35AF85B2B415 /* CTString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CTString.swift; path = "Proxy Classes/es5_ios/public/CTString.swift"; sourceTree = "<group>"; };
-		A534B14DCD6D4ECEA70BF9EB /* VHUnitLengthSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitLengthSetMasterViewController.swift; path = VHUnitLengthSet/VHUnitLengthSetMasterViewController.swift; sourceTree = "<group>"; };
-		A6903F068DC289E2B7835E57 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ContactSet.storyboard; sourceTree = "<group>"; };
-		A8F3EE1213C5A36889AC3CBB /* VHUnitWeightSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitWeightSetMasterViewController.swift; path = VHUnitWeightSet/VHUnitWeightSetMasterViewController.swift; sourceTree = "<group>"; };
-		AA5C6231BD8354607FCA0AAA /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SalesOrderSet.storyboard; sourceTree = "<group>"; };
 		B67AABA91303876AAB0390D1 /* VHUnitLength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitLength.swift; path = "Proxy Classes/es5_ios/public/VHUnitLength.swift"; sourceTree = "<group>"; };
 		BB2A766643F0D4BA00A01B22 /* VHUnitWeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHUnitWeight.swift; path = "Proxy Classes/es5_ios/public/VHUnitWeight.swift"; sourceTree = "<group>"; };
-		BE06EE42CC6F7CCC3080AACD /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHBPRoleSet.storyboard; sourceTree = "<group>"; };
 		BFCFD2C05C244498D4BF5737 /* VHCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCountry.swift; path = "Proxy Classes/es5_ios/public/VHCountry.swift"; sourceTree = "<group>"; };
-		C23106E542EEDC7EEB3B881A /* VHLanguageSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHLanguageSetDetailViewController.swift; path = VHLanguageSet/VHLanguageSetDetailViewController.swift; sourceTree = "<group>"; };
 		C6699DD1204F237B7C869B01 /* Contact.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = "Proxy Classes/es5_ios/public/Contact.swift"; sourceTree = "<group>"; };
-		C678E8456788E843FD502A76 /* VHSexSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHSexSetDetailViewController.swift; path = VHSexSet/VHSexSetDetailViewController.swift; sourceTree = "<group>"; };
-		C7F70AF352DDF9A655BB8825 /* VHLanguageSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHLanguageSetMasterViewController.swift; path = VHLanguageSet/VHLanguageSetMasterViewController.swift; sourceTree = "<group>"; };
 		C8CD3F0D9814251E2290AB15 /* GWSAMPLEBASICEntitiesMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesMetadata.swift; path = "Proxy Classes/es5_ios/public/GWSAMPLEBASICEntitiesMetadata.swift"; sourceTree = "<group>"; };
-		CA1A47B46CA0E4213A8E661B /* VHProductTypeCodeSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHProductTypeCodeSetDetailViewController.swift; path = VHProductTypeCodeSet/VHProductTypeCodeSetDetailViewController.swift; sourceTree = "<group>"; };
 		CB909D801E38CA8800218154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD3DACC6AE6E0BFBDC732EF8 /* VHBPRole.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHBPRole.swift; path = "Proxy Classes/es5_ios/public/VHBPRole.swift"; sourceTree = "<group>"; };
-		CE749BDE927A274BDCBC01C0 /* ContactSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContactSetMasterViewController.swift; path = ContactSet/ContactSetMasterViewController.swift; sourceTree = "<group>"; };
-		D0589FD3F0DABA8C91FDA3EF /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHCategorySet.storyboard; sourceTree = "<group>"; };
-		D924028BACA0366B40E9D7BC /* VHCurrencySetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCurrencySetMasterViewController.swift; path = VHCurrencySet/VHCurrencySetMasterViewController.swift; sourceTree = "<group>"; };
 		DB540BE5847CAF5DA8C346F2 /* GWSAMPLEBASICEntitiesMetadataChanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWSAMPLEBASICEntitiesMetadataChanges.swift; path = "Proxy Classes/es5_ios/internal/GWSAMPLEBASICEntitiesMetadataChanges.swift"; sourceTree = "<group>"; };
-		DE60416A1B56D2EF7845D4DD /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHUnitWeightSet.storyboard; sourceTree = "<group>"; };
-		E0558183F9498EDDD3E4F09A /* VHCategorySetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHCategorySetMasterViewController.swift; path = VHCategorySet/VHCategorySetMasterViewController.swift; sourceTree = "<group>"; };
-		E1F96E42E0BF1747A6A6B095 /* SalesOrderLineItemSetDetailViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderLineItemSetDetailViewController.swift; path = SalesOrderLineItemSet/SalesOrderLineItemSetDetailViewController.swift; sourceTree = "<group>"; };
 		E4EA8023D8C418447E83E99E /* SalesOrderLineItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderLineItem.swift; path = "Proxy Classes/es5_ios/public/SalesOrderLineItem.swift"; sourceTree = "<group>"; };
 		E57C05DCF496C1F4AAB50194 /* VHLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHLanguage.swift; path = "Proxy Classes/es5_ios/public/VHLanguage.swift"; sourceTree = "<group>"; };
-		E941293751B1F988F4223A31 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHAddressTypeSet.storyboard; sourceTree = "<group>"; };
-		F05A6673605DA7AFC62F9BD2 /* Base */ = {isa = PBXFileReference; includeInIndex = ""; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/VHUnitQuantitySet.storyboard; sourceTree = "<group>"; };
-		F72CA9F1866E74B806822504 /* SalesOrderSetMasterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderSetMasterViewController.swift; path = SalesOrderSet/SalesOrderSetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,92 +147,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0359FDCF211AF4A200B15633 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0359FDD0211AF4C700B15633 /* DashboardViewController.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
 		12D066CB1F4DDAE40075EBA4 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
 				12E84FDE1F4EBD460061C99E /* OnboardingManager.swift */,
 			);
 			name = Onboarding;
-			sourceTree = "<group>";
-		};
-		23DD5288F40098D28526C919 /* VHUnitLengthSet */ = {
-			isa = PBXGroup;
-			children = (
-				BD5932C29876EB64330215CC /* VHUnitLengthSet.storyboard */,
-				A534B14DCD6D4ECEA70BF9EB /* VHUnitLengthSetMasterViewController.swift */,
-				0063FFBD0E987A8C4ACAD52A /* VHUnitLengthSetDetailViewController.swift */,
-			);
-			name = VHUnitLengthSet;
-			sourceTree = "<group>";
-		};
-		2E37E58F98254C3ED5521B35 /* VHBPRoleSet */ = {
-			isa = PBXGroup;
-			children = (
-				7261908B2837BD1006E7D6DF /* VHBPRoleSet.storyboard */,
-				8DC6C95079FD82D27F863AA3 /* VHBPRoleSetMasterViewController.swift */,
-				3AE9BA6B2433FA470A7332A1 /* VHBPRoleSetDetailViewController.swift */,
-			);
-			name = VHBPRoleSet;
-			sourceTree = "<group>";
-		};
-		2E3AA23171BE7CCFC0A4EC35 /* VHCountrySet */ = {
-			isa = PBXGroup;
-			children = (
-				8AF3020CD0EC5B972584C1D9 /* VHCountrySet.storyboard */,
-				9488D92BA20A6AC047670F0E /* VHCountrySetMasterViewController.swift */,
-				80A30274699996F8CE1B4BE6 /* VHCountrySetDetailViewController.swift */,
-			);
-			name = VHCountrySet;
-			sourceTree = "<group>";
-		};
-		36EE4D51D62325B30BA50751 /* VHUnitWeightSet */ = {
-			isa = PBXGroup;
-			children = (
-				0566AD3FEF0E8E34CA6E48C9 /* VHUnitWeightSet.storyboard */,
-				A8F3EE1213C5A36889AC3CBB /* VHUnitWeightSetMasterViewController.swift */,
-				0C7799BDBB1640734396EB75 /* VHUnitWeightSetDetailViewController.swift */,
-			);
-			name = VHUnitWeightSet;
-			sourceTree = "<group>";
-		};
-		3855D3F866BF84E2C417E4F4 /* VHAddressTypeSet */ = {
-			isa = PBXGroup;
-			children = (
-				E7520E0590018AC661317FF4 /* VHAddressTypeSet.storyboard */,
-				058B91606A9CF41426F4FAF7 /* VHAddressTypeSetMasterViewController.swift */,
-				8B5A2E0A26011D65155F86C6 /* VHAddressTypeSetDetailViewController.swift */,
-			);
-			name = VHAddressTypeSet;
-			sourceTree = "<group>";
-		};
-		4B78E35A170F683306E6876C /* BusinessPartnerSet */ = {
-			isa = PBXGroup;
-			children = (
-				32CB1CE36A3F0D9B2A401F9A /* BusinessPartnerSet.storyboard */,
-				8082D4FF3874CCF238C3963D /* BusinessPartnerSetMasterViewController.swift */,
-				0D78D1DB71D9052FA9C3CBC2 /* BusinessPartnerSetDetailViewController.swift */,
-			);
-			name = BusinessPartnerSet;
-			sourceTree = "<group>";
-		};
-		551F78FC69FFD34DF55475EF /* ProductSet */ = {
-			isa = PBXGroup;
-			children = (
-				853BC61B71057C11CFD90A07 /* ProductSet.storyboard */,
-				356FB667E39A50F6A17F9F9E /* ProductSetMasterViewController.swift */,
-				70BEB1A721BD5F8BD4D20BD7 /* ProductSetDetailViewController.swift */,
-			);
-			name = ProductSet;
-			sourceTree = "<group>";
-		};
-		6E5A6A8E014F2552100F7802 /* VHUnitQuantitySet */ = {
-			isa = PBXGroup;
-			children = (
-				F0DD801B17FF3A3E8B842FBC /* VHUnitQuantitySet.storyboard */,
-				9499B03278E489683A3E086D /* VHUnitQuantitySetMasterViewController.swift */,
-				4F59F96ED19A5EFF7F1646A9 /* VHUnitQuantitySetDetailViewController.swift */,
-			);
-			name = VHUnitQuantitySet;
 			sourceTree = "<group>";
 		};
 		7532C1BB1D5B6917004B03AF /* Model */ = {
@@ -340,6 +176,7 @@
 			children = (
 				7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */,
 				7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */,
+				0359FDD2211AF59300B15633 /* Utils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -349,22 +186,7 @@
 			children = (
 				75AC42CE1DAF824D00B445FF /* CollectionsViewController.swift */,
 				128B53051F8E667000E64DF6 /* SnapshotViewController.swift */,
-				551F78FC69FFD34DF55475EF /* ProductSet */,
-				862128DD280361BF6E2DB0F8 /* SalesOrderSet */,
-				2E3AA23171BE7CCFC0A4EC35 /* VHCountrySet */,
-				2E37E58F98254C3ED5521B35 /* VHBPRoleSet */,
-				6E5A6A8E014F2552100F7802 /* VHUnitQuantitySet */,
-				36EE4D51D62325B30BA50751 /* VHUnitWeightSet */,
-				E4F64A345DDF2936AD2DBCD7 /* VHSexSet */,
-				A6546FE5A84DE75160C0ABAD /* ContactSet */,
-				BC098124F964FDE41DBD135D /* VHProductTypeCodeSet */,
-				9342194A987DF99D1B62E0AD /* SalesOrderLineItemSet */,
-				23DD5288F40098D28526C919 /* VHUnitLengthSet */,
-				9F3878FE59871297D1A9D809 /* VHLanguageSet */,
-				4B78E35A170F683306E6876C /* BusinessPartnerSet */,
-				E80DEEC6332070421D6E703F /* VHCategorySet */,
-				AE35CA37C4E3BF1D8E92DEDC /* VHCurrencySet */,
-				3855D3F866BF84E2C417E4F4 /* VHAddressTypeSet */,
+				0359FDCF211AF4A200B15633 /* CustomViews */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -427,66 +249,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		862128DD280361BF6E2DB0F8 /* SalesOrderSet */ = {
-			isa = PBXGroup;
-			children = (
-				B6CAB5928732E4EA25400916 /* SalesOrderSet.storyboard */,
-				F72CA9F1866E74B806822504 /* SalesOrderSetMasterViewController.swift */,
-				6E1184731A5831D38BEBE320 /* SalesOrderSetDetailViewController.swift */,
-			);
-			name = SalesOrderSet;
-			sourceTree = "<group>";
-		};
-		9342194A987DF99D1B62E0AD /* SalesOrderLineItemSet */ = {
-			isa = PBXGroup;
-			children = (
-				C0AA91479346EE6AE0784718 /* SalesOrderLineItemSet.storyboard */,
-				125FD1C061EC8D7D7057D66A /* SalesOrderLineItemSetMasterViewController.swift */,
-				E1F96E42E0BF1747A6A6B095 /* SalesOrderLineItemSetDetailViewController.swift */,
-			);
-			name = SalesOrderLineItemSet;
-			sourceTree = "<group>";
-		};
-		9F3878FE59871297D1A9D809 /* VHLanguageSet */ = {
-			isa = PBXGroup;
-			children = (
-				3E9D6F262F0E275A2B460692 /* VHLanguageSet.storyboard */,
-				C7F70AF352DDF9A655BB8825 /* VHLanguageSetMasterViewController.swift */,
-				C23106E542EEDC7EEB3B881A /* VHLanguageSetDetailViewController.swift */,
-			);
-			name = VHLanguageSet;
-			sourceTree = "<group>";
-		};
-		A6546FE5A84DE75160C0ABAD /* ContactSet */ = {
-			isa = PBXGroup;
-			children = (
-				1C78314EEF6EEBAFC30FA558 /* ContactSet.storyboard */,
-				CE749BDE927A274BDCBC01C0 /* ContactSetMasterViewController.swift */,
-				2510696325B98AD68AC3B1DF /* ContactSetDetailViewController.swift */,
-			);
-			name = ContactSet;
-			sourceTree = "<group>";
-		};
-		AE35CA37C4E3BF1D8E92DEDC /* VHCurrencySet */ = {
-			isa = PBXGroup;
-			children = (
-				EC97CAF4F8666CBCEDADF78D /* VHCurrencySet.storyboard */,
-				D924028BACA0366B40E9D7BC /* VHCurrencySetMasterViewController.swift */,
-				6835859C589F93D48656BB6F /* VHCurrencySetDetailViewController.swift */,
-			);
-			name = VHCurrencySet;
-			sourceTree = "<group>";
-		};
-		BC098124F964FDE41DBD135D /* VHProductTypeCodeSet */ = {
-			isa = PBXGroup;
-			children = (
-				3331185094650581E1E558CF /* VHProductTypeCodeSet.storyboard */,
-				04A2F50B48866E2501DC1FAD /* VHProductTypeCodeSetMasterViewController.swift */,
-				CA1A47B46CA0E4213A8E661B /* VHProductTypeCodeSetDetailViewController.swift */,
-			);
-			name = VHProductTypeCodeSet;
-			sourceTree = "<group>";
-		};
 		DA1BFBBE9B5C1AEAA3430A40 /* public */ = {
 			isa = PBXGroup;
 			children = (
@@ -526,26 +288,6 @@
 			name = internal;
 			sourceTree = "<group>";
 		};
-		E4F64A345DDF2936AD2DBCD7 /* VHSexSet */ = {
-			isa = PBXGroup;
-			children = (
-				C50B259B4FC6C70C6EFEBC15 /* VHSexSet.storyboard */,
-				6EBE3643AA056606007BB3ED /* VHSexSetMasterViewController.swift */,
-				C678E8456788E843FD502A76 /* VHSexSetDetailViewController.swift */,
-			);
-			name = VHSexSet;
-			sourceTree = "<group>";
-		};
-		E80DEEC6332070421D6E703F /* VHCategorySet */ = {
-			isa = PBXGroup;
-			children = (
-				CCDFDC4D3EFADF1E7CCC3DAA /* VHCategorySet.storyboard */,
-				E0558183F9498EDDD3E4F09A /* VHCategorySetMasterViewController.swift */,
-				9FEB1AEA9F296E180B7D4BCB /* VHCategorySetDetailViewController.swift */,
-			);
-			name = VHCategorySet;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -579,6 +321,7 @@
 				TargetAttributes = {
 					7A1315B41D4B982000A5DA56 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SG9XUF7LWG;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -609,26 +352,10 @@
 			files = (
 				7A16F06D1FD1B3C700D2FABD /* README.md in Resources */,
 				7A1315C51D4B982000A5DA56 /* LaunchScreen.storyboard in Resources */,
-				12D066CF1F4DDB0E0075EBA4 /* BuildFile in Resources */,
+				12D066CF1F4DDB0E0075EBA4 /* (null) in Resources */,
 				7A1315C21D4B982000A5DA56 /* Assets.xcassets in Resources */,
 				CBCA7A991E3778A9001AF49E /* Main.storyboard in Resources */,
 				1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */,
-				045D3781F916DCB2778B3666 /* ProductSet.storyboard in Resources */,
-				4F4DBCCBFB42B65615A2EC61 /* SalesOrderSet.storyboard in Resources */,
-				3FF478B0C8A671C4A054B93D /* VHCountrySet.storyboard in Resources */,
-				31118B434150374DC7D9793B /* VHBPRoleSet.storyboard in Resources */,
-				3F7517AF7F29F3CD26EDEE88 /* VHUnitQuantitySet.storyboard in Resources */,
-				BEA86E8CE0ABC9DD299BA302 /* VHUnitWeightSet.storyboard in Resources */,
-				41B759CA8B35E962CA7A7042 /* VHSexSet.storyboard in Resources */,
-				A956813E7C96B6C45D88AE29 /* ContactSet.storyboard in Resources */,
-				B3E5E2FDE8ECB6D4A818BACB /* VHProductTypeCodeSet.storyboard in Resources */,
-				6D076DC041CC859020232BF1 /* SalesOrderLineItemSet.storyboard in Resources */,
-				2FC818441D8303745F982ECD /* VHUnitLengthSet.storyboard in Resources */,
-				C73A42F569418321D732D84A /* VHLanguageSet.storyboard in Resources */,
-				BDEA472C4A75C6803C2EDF18 /* BusinessPartnerSet.storyboard in Resources */,
-				1826338E6C2D6E42CD9E471D /* VHCategorySet.storyboard in Resources */,
-				85B48CCD8D313B8640AB72FD /* VHCurrencySet.storyboard in Resources */,
-				0DD4755276E338F5487299FA /* VHAddressTypeSet.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +375,7 @@
 				7A1315B91D4B982000A5DA56 /* AppDelegate.swift in Sources */,
 				BE76687E21BBB058AB2EA729 /* GWSAMPLEBASICEntitiesFactory.swift in Sources */,
 				E8A983365540EA872DD7D40B /* GWSAMPLEBASICEntitiesMetadataChanges.swift in Sources */,
+				0359FDD3211AF59300B15633 /* Utils.swift in Sources */,
 				900620E3EE38A4A0FD576F52 /* GWSAMPLEBASICEntitiesMetadataParser.swift in Sources */,
 				E75C1761AE64D9E6B0AC7E0C /* GWSAMPLEBASICEntitiesMetadataText.swift in Sources */,
 				81AA11D9D38F097269EC2E1A /* GWSAMPLEBASICEntitiesStaticResolver.swift in Sources */,
@@ -658,6 +386,7 @@
 				6660DFF6AE18D26F6B3E74FE /* VHSex.swift in Sources */,
 				BE2ED539FE4171284B5B767B /* VHCategory.swift in Sources */,
 				B0039F64DF0F1FCC0E69A8F9 /* GWSAMPLEBASICEntitiesMetadata.swift in Sources */,
+				0359FDD1211AF4C700B15633 /* DashboardViewController.swift in Sources */,
 				E958556C5D32549701DAEC99 /* GWSAMPLEBASICEntities.swift in Sources */,
 				58402857E4A27DD139137114 /* VHUnitWeight.swift in Sources */,
 				11B2440686CD131670F4E003 /* VHCountry.swift in Sources */,
@@ -671,98 +400,12 @@
 				98D7809B7F3D0FBE5D5E62C0 /* VHBPRole.swift in Sources */,
 				BCB5B56664022FFEA6DEA567 /* VHLanguage.swift in Sources */,
 				D41830812BAF0E9D6643B025 /* Contact.swift in Sources */,
-				C1CA9B73DAB5427A9E9CB512 /* ProductSetMasterViewController.swift in Sources */,
-				8A6A3164ABD53B18B3991F7E /* ProductSetDetailViewController.swift in Sources */,
-				21004DFFAD9AF5F010C3E1DC /* SalesOrderSetMasterViewController.swift in Sources */,
-				DB2E526206083275835D1A8C /* SalesOrderSetDetailViewController.swift in Sources */,
-				E9D6F0AAA337F28B38E35884 /* VHCountrySetMasterViewController.swift in Sources */,
-				4A86E9B63A9E993F1B14812A /* VHCountrySetDetailViewController.swift in Sources */,
-				B409CF827C234CFE7BBC8FF4 /* VHBPRoleSetMasterViewController.swift in Sources */,
-				86D3443668CB71D35A3CE7DB /* VHBPRoleSetDetailViewController.swift in Sources */,
-				63234F632729F336D3154F63 /* VHUnitQuantitySetMasterViewController.swift in Sources */,
-				9853846289ACEFED54626E84 /* VHUnitQuantitySetDetailViewController.swift in Sources */,
-				09CB914956F5D147080700CA /* VHUnitWeightSetMasterViewController.swift in Sources */,
-				C976AC5213D54D79460F2814 /* VHUnitWeightSetDetailViewController.swift in Sources */,
-				FCA4889C9A73D71B96933242 /* VHSexSetMasterViewController.swift in Sources */,
-				1872D1310CC4429E2E80A280 /* VHSexSetDetailViewController.swift in Sources */,
-				99EA6BAC766C9BAD1603A347 /* ContactSetMasterViewController.swift in Sources */,
-				9E35DBDD0BB3195EC324B036 /* ContactSetDetailViewController.swift in Sources */,
-				BFA77CE42A11A669CD70D3AC /* VHProductTypeCodeSetMasterViewController.swift in Sources */,
-				15548AB847DEA17CA6268A99 /* VHProductTypeCodeSetDetailViewController.swift in Sources */,
-				5E989BA3E8B8353E520ADBAE /* SalesOrderLineItemSetMasterViewController.swift in Sources */,
-				ACED98D6DBA2C6806F09EC6F /* SalesOrderLineItemSetDetailViewController.swift in Sources */,
-				E72B405E26E1399D0B5787ED /* VHUnitLengthSetMasterViewController.swift in Sources */,
-				92158BEC1A562CDB8BDE5203 /* VHUnitLengthSetDetailViewController.swift in Sources */,
-				EBF6E4291D91F2509A21D066 /* VHLanguageSetMasterViewController.swift in Sources */,
-				523BE0A291B2151B956D94BA /* VHLanguageSetDetailViewController.swift in Sources */,
-				C7F872D345629C2623A6F886 /* BusinessPartnerSetMasterViewController.swift in Sources */,
-				4963DE4D97A542DB4C8A8B6D /* BusinessPartnerSetDetailViewController.swift in Sources */,
-				20FDCCFCEBB5FA8C5269A073 /* VHCategorySetMasterViewController.swift in Sources */,
-				CBC961641C61025D5D4EE4CC /* VHCategorySetDetailViewController.swift in Sources */,
-				F30B146F78296E333E0BE587 /* VHCurrencySetMasterViewController.swift in Sources */,
-				0CD6D7540A9ACD1CEB169E21 /* VHCurrencySetDetailViewController.swift in Sources */,
-				4D33315229478BA9C3FA7550 /* VHAddressTypeSetMasterViewController.swift in Sources */,
-				59F380A7A023D0ED534F2858 /* VHAddressTypeSetDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0566AD3FEF0E8E34CA6E48C9 /* VHUnitWeightSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE60416A1B56D2EF7845D4DD /* Base */,
-			);
-			name = VHUnitWeightSet.storyboard;
-			path = VHUnitWeightSet;
-			sourceTree = "<group>";
-		};
-		1C78314EEF6EEBAFC30FA558 /* ContactSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6903F068DC289E2B7835E57 /* Base */,
-			);
-			name = ContactSet.storyboard;
-			path = ContactSet;
-			sourceTree = "<group>";
-		};
-		32CB1CE36A3F0D9B2A401F9A /* BusinessPartnerSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71D3AE2D0EBB0B2AA2630EC0 /* Base */,
-			);
-			name = BusinessPartnerSet.storyboard;
-			path = BusinessPartnerSet;
-			sourceTree = "<group>";
-		};
-		3331185094650581E1E558CF /* VHProductTypeCodeSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D3A124719C4423508AF1882 /* Base */,
-			);
-			name = VHProductTypeCodeSet.storyboard;
-			path = VHProductTypeCodeSet;
-			sourceTree = "<group>";
-		};
-		3E9D6F262F0E275A2B460692 /* VHLanguageSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70963A20D59DB1ADAB682BA2 /* Base */,
-			);
-			name = VHLanguageSet.storyboard;
-			path = VHLanguageSet;
-			sourceTree = "<group>";
-		};
-		7261908B2837BD1006E7D6DF /* VHBPRoleSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE06EE42CC6F7CCC3080AACD /* Base */,
-			);
-			name = VHBPRoleSet.storyboard;
-			path = VHBPRoleSet;
-			sourceTree = "<group>";
-		};
 		7A1315C31D4B982000A5DA56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -771,102 +414,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		853BC61B71057C11CFD90A07 /* ProductSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A5B1127C762A05ED7FCD337 /* Base */,
-			);
-			name = ProductSet.storyboard;
-			path = ProductSet;
-			sourceTree = "<group>";
-		};
-		8AF3020CD0EC5B972584C1D9 /* VHCountrySet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				286E051AF36A9AB51FC0711E /* Base */,
-			);
-			name = VHCountrySet.storyboard;
-			path = VHCountrySet;
-			sourceTree = "<group>";
-		};
-		B6CAB5928732E4EA25400916 /* SalesOrderSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA5C6231BD8354607FCA0AAA /* Base */,
-			);
-			name = SalesOrderSet.storyboard;
-			path = SalesOrderSet;
-			sourceTree = "<group>";
-		};
-		BD5932C29876EB64330215CC /* VHUnitLengthSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B108C96692E68C50A669BE8 /* Base */,
-			);
-			name = VHUnitLengthSet.storyboard;
-			path = VHUnitLengthSet;
-			sourceTree = "<group>";
-		};
-		C0AA91479346EE6AE0784718 /* SalesOrderLineItemSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71483973AAA1041F428914DB /* Base */,
-			);
-			name = SalesOrderLineItemSet.storyboard;
-			path = SalesOrderLineItemSet;
-			sourceTree = "<group>";
-		};
-		C50B259B4FC6C70C6EFEBC15 /* VHSexSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8F8FDBF2B989523B4B550DD7 /* Base */,
-			);
-			name = VHSexSet.storyboard;
-			path = VHSexSet;
-			sourceTree = "<group>";
-		};
 		CBCA7A9B1E3778A9001AF49E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CB909D801E38CA8800218154 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCDFDC4D3EFADF1E7CCC3DAA /* VHCategorySet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0589FD3F0DABA8C91FDA3EF /* Base */,
-			);
-			name = VHCategorySet.storyboard;
-			path = VHCategorySet;
-			sourceTree = "<group>";
-		};
-		E7520E0590018AC661317FF4 /* VHAddressTypeSet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E941293751B1F988F4223A31 /* Base */,
-			);
-			name = VHAddressTypeSet.storyboard;
-			path = VHAddressTypeSet;
-			sourceTree = "<group>";
-		};
-		EC97CAF4F8666CBCEDADF78D /* VHCurrencySet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28ED97F699D9C3989CA57E53 /* Base */,
-			);
-			name = VHCurrencySet.storyboard;
-			path = VHCurrencySet;
-			sourceTree = "<group>";
-		};
-		F0DD801B17FF3A3E8B842FBC /* VHUnitQuantitySet.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F05A6673605DA7AFC62F9BD2 /* Base */,
-			);
-			name = VHUnitQuantitySet.storyboard;
-			path = VHUnitQuantitySet;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -987,7 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SG9XUF7LWG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1010,7 +563,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = SG9XUF7LWG;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
