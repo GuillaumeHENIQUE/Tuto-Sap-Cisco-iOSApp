@@ -22,7 +22,7 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
     
     var loadingIndicator: FUILoadingIndicatorView?
     private let logger = Logger.shared(named: "DashboardViewControllerLogger")
-  
+    var boolUpdateView: Bool = false
     var idSalesOrderToShow: String?
     var salesOrderToShow: SalesOrder?
     
@@ -50,6 +50,9 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         updateTable()
         initTimeLineView()
     
+        let updateButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: self, action: #selector(updateValues(_:)))
+        let spacer = UIBarButtonItem()
+        self.navigationItem.rightBarButtonItems = [spacer,spacer,updateButton]
         let imageView = UIImageView(image: self.resizeImage(image:#imageLiteral(resourceName: "logo"), newHeight: 35))
         self.navigationItem.titleView = imageView
         
@@ -163,6 +166,10 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         if let price = salesItem.netAmount {
             timeLineCell.subStatusText = "\(price) \(salesItem.currencyCode!)"
         }
+        let tap = UITapGestureRecognizerCustom(target: self, action: #selector(self.handleSalesOrderTap(_:)))
+        timeLineCell.addGestureRecognizer(tap)
+        tap.id = salesItem.salesOrderID!
+        tap.index = indexPath.row
         return timeLineCell
     }
     
@@ -201,9 +208,39 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         
     }
     
+    @objc func handleSalesOrderTap(_ sender:UITapGestureRecognizerCustom) {
+        self.idSalesOrderToShow = sender.id
+        self.indexSaleOrderToShow = sender.index
+        
+        self.performSegue(withIdentifier: "showSalesOrderDetail", sender: nil)
+    }
+    
+    @objc func updateValues(_ sender: UITapGestureRecognizer) {
+        self.boolUpdateView = true
+        self.viewDidLoad()
+        self.boolUpdateView = false
+    }
+    
   ///////////////////////////////////////////////////////////////////////
  // Handle Tap  END
 ///////////////////////////////////////////////////////////////////////
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender _: Any?) {
+        
+        if segue.identifier == "showSalesOrderDetail" {
+            
+            let detailViewController = segue.destination as! ItemLinesViewController
+            // detailViewController.navigationItem.leftItemsSupplementBackButton = true
+            
+            detailViewController.setIDSalesOrder(id: self.idSalesOrderToShow!)
+            detailViewController.salesOrderToShow = salesOrderSet[self.indexSaleOrderToShow!]
+            
+        }
+        
+    }
+    
     
 
     func resizeImage(image: UIImage, newHeight: CGFloat) -> UIImage {

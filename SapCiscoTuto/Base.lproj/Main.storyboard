@@ -23,6 +23,7 @@
                     <connections>
                         <outlet property="myTableView" destination="lw3-CR-V8g" id="7Yd-Xr-k5P"/>
                         <segue destination="FlN-95-FSX" kind="show" identifier="showProducts" id="nlM-7k-7tY"/>
+                        <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetail" id="kGw-jq-MZr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpg-Yc-b5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -36,7 +37,7 @@
                     </connections>
                 </pinchGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1830" y="-1152"/>
+            <point key="canvasLocation" x="2053" y="-1126"/>
         </scene>
         <!--Product View Controller-->
         <scene sceneID="ssI-Cf-MN3">
@@ -54,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1hT-nJ-oHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1119" y="-373"/>
+            <point key="canvasLocation" x="2053" y="-352"/>
         </scene>
         <!--Nav Controller-->
         <scene sceneID="hB2-Px-ig2">
@@ -114,7 +115,50 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAb-aw-hrR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1847.4609374999998" y="366.7642752562225"/>
+            <point key="canvasLocation" x="2053" y="379"/>
+        </scene>
+        <!--Item Lines View Controller-->
+        <scene sceneID="DFf-Oz-OFG">
+            <objects>
+                <viewController storyboardIdentifier="ItemLinesViewController" id="A5W-40-VOg" customClass="ItemLinesViewController" customModule="SapCiscoTuto" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yAd-1S-F9i">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="yAd-1S-F9i" id="6zK-Mr-WNZ"/>
+                        <segue destination="DCf-DT-YcE" kind="show" identifier="backToDashboardView" id="cnx-uC-hab"/>
+                        <segue destination="ApP-ad-oxg" kind="show" identifier="addLineItem" id="Za9-Ab-cP9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SzM-U4-Oei" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="-1126"/>
+        </scene>
+        <!--Create Sales Order Line View Controller-->
+        <scene sceneID="3I5-6K-wRY">
+            <objects>
+                <viewController id="ApP-ad-oxg" customClass="CreateSalesOrderLineViewController" customModule="SapCiscoTuto" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="A2n-gb-bH0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="A2n-gb-bH0" id="7b3-zW-rRO"/>
+                        <segue destination="A5W-40-VOg" kind="show" identifier="backToItemLineViewController" animates="NO" id="BdT-39-9uL"/>
+                        <segue destination="DCf-DT-YcE" kind="show" identifier="backToDashboardViewController" id="sZo-d1-PQa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GNa-o3-k3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="-294"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Za9-Ab-cP9"/>
+        <segue reference="BdT-39-9uL"/>
+        <segue reference="xJq-6p-XjZ"/>
+    </inferredMetricsTieBreakers>
 </document>
