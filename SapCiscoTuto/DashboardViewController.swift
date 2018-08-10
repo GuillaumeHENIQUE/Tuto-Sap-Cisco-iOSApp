@@ -50,7 +50,7 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         updateTable()
         initTimeLineView()
     
-        let imageView = UIImageView(image: Utils.resizeImage(image:#imageLiteral(resourceName: "logo"), newHeight: 35))
+        let imageView = UIImageView(image: self.resizeImage(image:#imageLiteral(resourceName: "logo"), newHeight: 35))
         self.navigationItem.titleView = imageView
         
     }
@@ -118,6 +118,9 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
             let kpiView2Metric = FUIKPIMetricItem(string: "\(productCount)")
             kpiView2.items = [kpiView2Metric]
             kpiView2.captionlabel.text = "Products"
+            
+            let tap2 = UITapGestureRecognizer(target: self, action: #selector(self.handleKpiTap2(_:)))
+            kpiView2.addGestureRecognizer(tap2)
             
             let contactCount = try Utils.fetchEntityCount(entity: GWSAMPLEBASICEntitiesMetadata.EntitySets.contactSet, entities : gwsampleEntites)
             let kpiView3 = FUIKPIView()
@@ -187,7 +190,38 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         }
         return localDate.toString()
     }
+    
+  ///////////////////////////////////////////////////////////////////////
+ // Handle Tap  BEGIN
+///////////////////////////////////////////////////////////////////////
+    
+    @objc func handleKpiTap2(_ sender: UITapGestureRecognizer) {
+        
+        self.performSegue(withIdentifier: "showProducts", sender: nil)
+        
+    }
+    
+  ///////////////////////////////////////////////////////////////////////
+ // Handle Tap  END
+///////////////////////////////////////////////////////////////////////
+    
 
+    func resizeImage(image: UIImage, newHeight: CGFloat) -> UIImage {
+        
+        let scale = newHeight / image.size.height
+        let newWidth = image.size.width * scale
+        
+        UIGraphicsBeginImageContext(CGSize(width: newWidth, height: newHeight))
+        
+        
+        image.draw(in: CGRect(x: 0, y: 0,width: newWidth, height: newHeight))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage!
+    }
+    
+    
 }
 
 // Date Format

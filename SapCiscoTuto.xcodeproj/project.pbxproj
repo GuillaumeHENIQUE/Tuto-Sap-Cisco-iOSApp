@@ -11,6 +11,10 @@
 		00F8E440C0EC89D7356A03F2 /* VHUnitQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DDD1AD915EDDCADF08AE6 /* VHUnitQuantity.swift */; };
 		0359FDD1211AF4C700B15633 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD0211AF4C700B15633 /* DashboardViewController.swift */; };
 		0359FDD3211AF59300B15633 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD2211AF59300B15633 /* Utils.swift */; };
+		03D21A22211C7FE000C35285 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D21A21211C7FE000C35285 /* ProductViewController.swift */; };
+		03D21A24211C803A00C35285 /* HelperImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D21A23211C803A00C35285 /* HelperImages.swift */; };
+		03D21A26211C818500C35285 /* DetailProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D21A25211C818500C35285 /* DetailProductViewController.swift */; };
+		03D21A28211C875A00C35285 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D21A27211C875A00C35285 /* NavController.swift */; };
 		11B2440686CD131670F4E003 /* VHCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCFD2C05C244498D4BF5737 /* VHCountry.swift */; };
 		1277F7611F8E66AF0060AF58 /* SAPLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */; };
 		128604DA1E55B41600C698B5 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128604D91E55B41600C698B5 /* SAPCommon.framework */; };
@@ -84,6 +88,10 @@
 		01CEB3B8FE49D5733D7F6906 /* VHProductTypeCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHProductTypeCode.swift; path = "Proxy Classes/es5_ios/public/VHProductTypeCode.swift"; sourceTree = "<group>"; };
 		0359FDD0211AF4C700B15633 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		0359FDD2211AF59300B15633 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		03D21A21211C7FE000C35285 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		03D21A23211C803A00C35285 /* HelperImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperImages.swift; sourceTree = "<group>"; };
+		03D21A25211C818500C35285 /* DetailProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProductViewController.swift; sourceTree = "<group>"; };
+		03D21A27211C875A00C35285 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
 		1277F7601F8E66AC0060AF58 /* SAPLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SAPLogo@2x.png"; sourceTree = "<group>"; };
 		128604D91E55B41600C698B5 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
 		128B53051F8E667000E64DF6 /* SnapshotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +159,9 @@
 			isa = PBXGroup;
 			children = (
 				0359FDD0211AF4C700B15633 /* DashboardViewController.swift */,
+				03D21A21211C7FE000C35285 /* ProductViewController.swift */,
+				03D21A25211C818500C35285 /* DetailProductViewController.swift */,
+				03D21A27211C875A00C35285 /* NavController.swift */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 				7A9F6FF51F3883D3000A1815 /* SAPFioriLoadingIndicator.swift */,
 				7A26CA1B1F31BA8800B156B6 /* CellCreationHelper.swift */,
 				0359FDD2211AF59300B15633 /* Utils.swift */,
+				03D21A23211C803A00C35285 /* HelperImages.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -367,8 +379,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				128B53061F8E667000E64DF6 /* SnapshotViewController.swift in Sources */,
+				03D21A26211C818500C35285 /* DetailProductViewController.swift in Sources */,
 				12E84FE51F4ECF220061C99E /* OnboardingManager.swift in Sources */,
 				7A9F6FF61F3883D3000A1815 /* SAPFioriLoadingIndicator.swift in Sources */,
+				03D21A22211C7FE000C35285 /* ProductViewController.swift in Sources */,
 				7A26CA1C1F31BA8800B156B6 /* CellCreationHelper.swift in Sources */,
 				12E07EF21E96851800460A94 /* CollectionType.swift in Sources */,
 				75AC42D41DAF824D00B445FF /* CollectionsViewController.swift in Sources */,
@@ -379,6 +393,7 @@
 				900620E3EE38A4A0FD576F52 /* GWSAMPLEBASICEntitiesMetadataParser.swift in Sources */,
 				E75C1761AE64D9E6B0AC7E0C /* GWSAMPLEBASICEntitiesMetadataText.swift in Sources */,
 				81AA11D9D38F097269EC2E1A /* GWSAMPLEBASICEntitiesStaticResolver.swift in Sources */,
+				03D21A28211C875A00C35285 /* NavController.swift in Sources */,
 				EB7DD6D282E983C97D7DACB9 /* VHProductTypeCode.swift in Sources */,
 				5BBD4F19831D54E7D4326DF2 /* SalesOrder.swift in Sources */,
 				B4FAAA573183A21B289051CD /* CTAddress.swift in Sources */,
@@ -392,6 +407,7 @@
 				11B2440686CD131670F4E003 /* VHCountry.swift in Sources */,
 				5F489F0C98262AC5B1D71FFF /* BusinessPartner.swift in Sources */,
 				36AE39B7C556A1FF31FCD175 /* CTString.swift in Sources */,
+				03D21A24211C803A00C35285 /* HelperImages.swift in Sources */,
 				00F8E440C0EC89D7356A03F2 /* VHUnitQuantity.swift in Sources */,
 				008434A77FC14BD216362B98 /* SalesOrderLineItem.swift in Sources */,
 				C948B58728BE769A4EEB7C6C /* Product.swift in Sources */,

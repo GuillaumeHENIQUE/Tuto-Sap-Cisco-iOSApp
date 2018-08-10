@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.897633"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.160563"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.162744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.164821"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.8982641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myTableView.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.172383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myTableView.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.174421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.177091"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.1794291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.181509"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.898596"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myTableView.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.1906101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myTableView.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITableView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.192989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.195423"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.197583"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.200273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.898932"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myImageView.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.209641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.myImageView.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.212516"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.214784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.217079"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.219258"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.899266"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__deallocating_deinit"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.228741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.231076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.233501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.235769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.237999"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.2402641"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.242511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.899586"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__deallocating_deinit"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.254704"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.256987"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.259254"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.261508"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.2638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.__allocating_init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.266564"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.26885"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.899893"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "DetailProductViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.loadingIndicator.getter : Swift.Optional&lt;SAPFiori.FUILoadingIndicatorView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.280672"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.loadingIndicator.setter : Swift.Optional&lt;SAPFiori.FUILoadingIndicatorView&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.2829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(style: __C.UITableViewStyle) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.285022"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SapCiscoTuto.DetailProductViewController"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.2873549"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SapCiscoTuto.DetailProductViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;SapCiscoTuto.DetailProductViewController&gt;"
+                  moduleName = "SapCiscoTuto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/guillaumehenique/Documents/test/Tuto-Sap-Cisco-iOSApp/SapCiscoTuto/DetailProductViewController.swift"
+                  timestampString = "555584021.289947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SapCiscoTuto/DetailProductViewController.swift"
+            timestampString = "555584020.900115"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
