@@ -10,6 +10,7 @@
 		008434A77FC14BD216362B98 /* SalesOrderLineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EA8023D8C418447E83E99E /* SalesOrderLineItem.swift */; };
 		00F8E440C0EC89D7356A03F2 /* VHUnitQuantity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1DDD1AD915EDDCADF08AE6 /* VHUnitQuantity.swift */; };
 		03099DDA21217FE2003E9702 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03099DD921217FE2003E9702 /* ContactViewController.swift */; };
+		03099DDC21218207003E9702 /* PartnersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03099DDB21218207003E9702 /* PartnersViewController.swift */; };
 		0359FDD1211AF4C700B15633 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD0211AF4C700B15633 /* DashboardViewController.swift */; };
 		0359FDD3211AF59300B15633 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FDD2211AF59300B15633 /* Utils.swift */; };
 		03ACBC0D211D8BE5000FCB0D /* ItemLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ACBC0C211D8BE5000FCB0D /* ItemLinesViewController.swift */; };
@@ -90,6 +91,7 @@
 /* Begin PBXFileReference section */
 		01CEB3B8FE49D5733D7F6906 /* VHProductTypeCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VHProductTypeCode.swift; path = "Proxy Classes/es5_ios/public/VHProductTypeCode.swift"; sourceTree = "<group>"; };
 		03099DD921217FE2003E9702 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		03099DDB21218207003E9702 /* PartnersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersViewController.swift; sourceTree = "<group>"; };
 		0359FDD0211AF4C700B15633 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		0359FDD2211AF59300B15633 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		03ACBC0C211D8BE5000FCB0D /* ItemLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLinesViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				03ACBC0C211D8BE5000FCB0D /* ItemLinesViewController.swift */,
 				03ACBC0E211D8DEA000FCB0D /* CreateSalesOrderLineViewController.swift */,
 				03099DD921217FE2003E9702 /* ContactViewController.swift */,
+				03099DDB21218207003E9702 /* PartnersViewController.swift */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 				03099DDA21217FE2003E9702 /* ContactViewController.swift in Sources */,
 				36AE39B7C556A1FF31FCD175 /* CTString.swift in Sources */,
 				03D21A24211C803A00C35285 /* HelperImages.swift in Sources */,
+				03099DDC21218207003E9702 /* PartnersViewController.swift in Sources */,
 				00F8E440C0EC89D7356A03F2 /* VHUnitQuantity.swift in Sources */,
 				008434A77FC14BD216362B98 /* SalesOrderLineItem.swift in Sources */,
 				C948B58728BE769A4EEB7C6C /* Product.swift in Sources */,

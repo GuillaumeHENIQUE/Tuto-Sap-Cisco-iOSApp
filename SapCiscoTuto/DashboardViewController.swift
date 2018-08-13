@@ -144,6 +144,9 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator, 
             kpiView4.items = [kpiView4Metric]
             kpiView4.captionlabel.text = "Partners"
             
+            let tap4 = UITapGestureRecognizer(target: self, action: #selector(self.handleKpiTap4(_:)))
+            kpiView4.addGestureRecognizer(tap4)
+            
             
             kpiHeader = FUIKPIHeader(items: [kpiView2, kpiView3, kpiView4, kpiView1 ])
             
@@ -217,6 +220,11 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator, 
     @objc func handleKpiTap3(_ sender: UITapGestureRecognizer) {
         
         self.performSegue(withIdentifier: "showContacts", sender: nil)
+        
+    }
+    @objc func handleKpiTap4(_ sender: UITapGestureRecognizer) {
+        
+        self.performSegue(withIdentifier: "showPartners", sender: nil)
         
     }
     

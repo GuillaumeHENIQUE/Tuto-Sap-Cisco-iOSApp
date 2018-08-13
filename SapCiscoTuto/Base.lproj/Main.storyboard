@@ -27,6 +27,7 @@
                         <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetailScanner" id="YHM-sC-LKp"/>
                         <segue destination="IUs-0w-W1j" kind="show" identifier="showProductDetails" id="fv6-Uw-AVf"/>
                         <segue destination="KOc-iD-C4b" kind="show" identifier="showContacts" id="4fd-3S-hkC"/>
+                        <segue destination="nzm-qn-tri" kind="show" identifier="showPartners" id="H6A-ra-ewa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpg-Yc-b5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -175,8 +176,27 @@
             </objects>
             <point key="canvasLocation" x="2939" y="-1126"/>
         </scene>
+        <!--Partners View Controller-->
+        <scene sceneID="ws7-Fm-T24">
+            <objects>
+                <viewController id="nzm-qn-tri" customClass="PartnersViewController" customModule="SapCiscoTuto" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="jsz-25-6sX">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="jsz-25-6sX" id="gZn-pm-L8i"/>
+                        <segue destination="KOc-iD-C4b" kind="show" identifier="showContactsOfBusinessPartner" id="x8o-4J-fny"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4CG-bB-fq6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2532" y="-1895"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="x8o-4J-fny"/>
         <segue reference="YHM-sC-LKp"/>
         <segue reference="fv6-Uw-AVf"/>
         <segue reference="xJq-6p-XjZ"/>
