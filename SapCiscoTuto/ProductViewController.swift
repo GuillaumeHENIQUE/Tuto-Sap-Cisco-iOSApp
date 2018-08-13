@@ -39,7 +39,8 @@ class ProductViewController: UIViewController, UITableViewDataSource, SAPFioriLo
         
         self.navigationItem.title="Products"
         
-       
+        let scanButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.camera, target: self, action: #selector(pushScanner(_:)))
+        self.navigationItem.rightBarButtonItem = scanButton
         
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableViewAutomaticDimension
@@ -140,6 +141,10 @@ class ProductViewController: UIViewController, UITableViewDataSource, SAPFioriLo
             }
             
         }
+    }
+    
+    @objc func pushScanner(_ sender:UITapGestureRecognizerCustom) {
+        NotificationCenter.default.post(name: Notification.Name("pushScanner"), object: nil) // use notifications to call the function present in the DashboardViewController
     }
     
   

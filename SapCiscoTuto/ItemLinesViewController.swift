@@ -55,11 +55,11 @@ class ItemLinesViewController: UIViewController, UITableViewDataSource, SAPFiori
             // navigationItem.hidesBackButton = false
         }
         
+        let scanButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.camera, target: self, action: #selector(pushScanner(_:)))
         let refreshButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh , target: self, action: #selector(refreshScanner(_:)))
         let addButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.add, target: self, action: #selector(createLine(_:)))
         let spacer = UIBarButtonItem()
-        self.navigationItem.rightBarButtonItems = [addButton,spacer,spacer,spacer,spacer,refreshButton]
-        
+        self.navigationItem.rightBarButtonItems = [scanButton,spacer,spacer,spacer,spacer,addButton,spacer,spacer,spacer,spacer,refreshButton]
         
         tableView.estimatedRowHeight = 80
         tableView.rowHeight = UITableViewAutomaticDimension
@@ -240,6 +240,9 @@ class ItemLinesViewController: UIViewController, UITableViewDataSource, SAPFiori
         self.entitySelected = lineItemSet[sender.index]
         
         FUIToastMessage.show(message: "\(lineItemSet[sender.index].productID ?? " ") selected")
+    }
+    @objc func pushScanner(_ sender:UITapGestureRecognizerCustom) {
+        NotificationCenter.default.post(name: Notification.Name("pushScanner"), object: nil)
     }
     
     

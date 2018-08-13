@@ -24,6 +24,8 @@
                         <outlet property="myTableView" destination="lw3-CR-V8g" id="7Yd-Xr-k5P"/>
                         <segue destination="FlN-95-FSX" kind="show" identifier="showProducts" id="nlM-7k-7tY"/>
                         <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetail" id="kGw-jq-MZr"/>
+                        <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetailScanner" id="YHM-sC-LKp"/>
+                        <segue destination="IUs-0w-W1j" kind="show" identifier="showProductDetails" id="fv6-Uw-AVf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpg-Yc-b5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -157,8 +159,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Za9-Ab-cP9"/>
-        <segue reference="BdT-39-9uL"/>
+        <segue reference="YHM-sC-LKp"/>
+        <segue reference="fv6-Uw-AVf"/>
         <segue reference="xJq-6p-XjZ"/>
     </inferredMetricsTieBreakers>
 </document>

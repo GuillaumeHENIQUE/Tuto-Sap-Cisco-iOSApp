@@ -18,14 +18,15 @@ import SAPOfflineOData
 
 import SAPCommon
 
-class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
+class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator, FUIBarcodeScanViewControllerDelegate{
     
     var loadingIndicator: FUILoadingIndicatorView?
     private let logger = Logger.shared(named: "DashboardViewControllerLogger")
     var boolUpdateView: Bool = false
     var idSalesOrderToShow: String?
     var salesOrderToShow: SalesOrder?
-    
+    var boolAlreadyScanned: Bool = false
+
     @IBOutlet var myTableView: UITableView!
     
     //var oDataModel: GWSAMPLEBASICEntitiesDataAccess?
@@ -50,9 +51,12 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         updateTable()
         initTimeLineView()
     
+        NotificationCenter.default.addObserver(self, selector: #selector(pushScanner(_:)), name: Notification.Name("pushScanner"), object: nil)
+        
         let updateButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: self, action: #selector(updateValues(_:)))
+        let scanButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.camera, target: self, action: #selector(pushScanner(_:)))
         let spacer = UIBarButtonItem()
-        self.navigationItem.rightBarButtonItems = [spacer,spacer,updateButton]
+        self.navigationItem.rightBarButtonItems = [scanButton, spacer,spacer,spacer,updateButton]
         let imageView = UIImageView(image: self.resizeImage(image:#imageLiteral(resourceName: "logo"), newHeight: 35))
         self.navigationItem.titleView = imageView
         
@@ -238,6 +242,28 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
             detailViewController.salesOrderToShow = salesOrderSet[self.indexSaleOrderToShow!]
             
         }
+        else if segue.identifier == "showProductDetails" {
+            let view = segue.destination as! DetailProductViewController
+            if let prod = self.productToShow {
+                view.currentIndex = 0
+                view.setProductSet(product: prod)
+            }
+            else {
+                //xxx error product is empty, can't show product view with empty entity
+                print("error product is empty")
+            }
+        }
+        else if segue.identifier == "showSalesOrderDetailScanner" {
+            let view = segue.destination as! ItemLinesViewController
+            if let facture = self.salesOrderToShow {
+                view.salesOrderToShow = facture
+                view.setIDSalesOrder(id: facture.salesOrderID!)
+                
+            } else {
+                //xxx error product is empty, can't show product view with empty entity
+                print("error product is empty")
+            }
+        }
         
     }
     
@@ -257,8 +283,120 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator{
         
         return newImage!
     }
+    ////////////////////////////////////
+    //QRCode - Data Part
+    ////////////////////////////////////
+    func requestEntities()
+    {
+        do{
+            
+            let queryProducts = DataQuery().selectAll().orderBy(Product.supplierID, SAPOData.SortOrder.ascending).top(20)
+            self.productSet = try self.gwsampleEntites.fetchProductSet(matching: queryProducts)
+            
+            
+            
+        } catch let error
+        {
+            print(error)
+        }
+        
+    }
+    ////////////////////////////////////
+    //QRCode - End Data Part
+    ////////////////////////////////////
     
     
+    
+    ////////////////////////////////////
+    // QR CODE part
+    ////////////////////////////////////
+    @objc func pushScanner(_ sender: Any?) {
+        
+        // https://experience.sap.com/fiori-design-ios/article/scan-view/
+        
+        
+        self.boolAlreadyScanned = false
+        
+        let scanViewController = FUIBarcodeScanViewController.createInstanceFromStoryboard()
+        
+        //        scanViewController.barcodeScanner.scanMode = .qr
+        //        scanViewController.barcodeScanner.indicatorBorderColor = UIColor.red.cgColor
+        //        scanViewController.barcodeScanner.indicatorBorderWidth = 20
+        //        scanViewController.barcodeScanner.promptMessage = "Scan A QR Code"
+        //        scanViewController.barcodeScanner.scanResultTransformer = { s in
+        //            return "transformed"
+        //        }
+        scanViewController.delegate = self
+        
+        let navController = UINavigationController(rootViewController: scanViewController)
+        self.navigationController?.present(navController, animated: true, completion: nil)
+    }
+    
+    func barcodeScanViewController(_ barcodeScanViewController: FUIBarcodeScanViewController, didReceiveScanResult scanResult: FUIBarcodeScanResult?) {
+        print("scan result: \(String(describing: scanResult?.scanResultString))")
+        
+        requestEntities()
+        
+        if(!boolAlreadyScanned){
+            
+            if let scanRes = scanResult?.scanResultString {
+                if let scanDict = convertToDictionary(text: scanRes) {
+                    //Here, we have a dict that we got from our JSON QR Code
+                    //We expect it to be {"proxyClasses":"id"}
+                    //Example : {"Product":"id"}
+                    //Try to use the CollectionType enum ?
+                    boolAlreadyScanned = true
+                    let pKey = scanDict.first?.key ?? "empty"
+                    switch pKey {
+                    case "Product":
+                        let scanEntityId = scanDict.first?.value ?? ""//This is a string
+                        
+                        if let found = self.productSet.first(where: {$0.productID == scanEntityId}) {
+                            FUIToastMessage.show(message: "Success, loading product : \(scanEntityId)", withDuration: 1)
+                            barcodeScanViewController.dismiss(animated: true, completion: nil)
+                            self.productToShow = found
+                            self.performSegue(withIdentifier: "showProductDetails", sender: nil)
+                        } else {
+                            FUIToastMessage.show(message: "Product ID : \(scanEntityId) not found in catalog", withDuration: 3)
+                        }
+                    case "SalesOrder":
+                        let scanEntityId = scanDict.first?.value ?? ""//This is a string
+                        if let found = self.salesOrderSet.first(where: {$0.salesOrderID == scanEntityId}) {
+                            FUIToastMessage.show(message: "Success, loading sales order : \(scanEntityId)", withDuration: 1)
+                            barcodeScanViewController.dismiss(animated: true, completion: nil)
+                            self.salesOrderToShow = found
+                            self.performSegue(withIdentifier: "showSalesOrderDetailScanner", sender: nil)
+                        } else {
+                            FUIToastMessage.show(message: "Sales Order ID : \(scanEntityId) not found in catalog", withDuration: 3)
+                        }
+                    default:
+                        FUIToastMessage.show(message: "\(pKey) n'est pas une catégorie valide", withDuration: 3)
+                    }
+                }
+                else {
+                    FUIToastMessage.show(message: "Wrong QR format : {\"Product\":\"id\"} ", withDuration: 3)
+                }
+            }
+            else {
+                FUIToastMessage.show(message: "Wrong QR format : {\"Product\":\"id\"} ", withDuration: 3)        }
+            
+        }
+    }
+    
+    //https://stackoverflow.com/questions/30480672/how-to-convert-a-json-string-to-a-dictionary
+    func convertToDictionary(text: String) -> [String: String]? {
+        if let data = text.data(using: .utf8) {
+            do {
+                return try JSONSerialization.jsonObject(with: data, options: []) as? [String: String]
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
+        return nil
+    }
+    ////////////////////////////////////
+    //end QR CODE part
+    ////////////////////////////////////
 }
 
 // Date Format
