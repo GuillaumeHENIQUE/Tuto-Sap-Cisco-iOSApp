@@ -135,6 +135,9 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator, 
             kpiView3.items = [kpiView3Metric]
             kpiView3.captionlabel.text = "Contacts"
             
+            let tap3 = UITapGestureRecognizer(target: self, action: #selector(self.handleKpiTap3(_:)))
+            kpiView3.addGestureRecognizer(tap3)
+            
             let partnersCount = try Utils.fetchEntityCount(entity: GWSAMPLEBASICEntitiesMetadata.EntitySets.businessPartnerSet, entities : gwsampleEntites)
             let kpiView4 = FUIKPIView()
             let kpiView4Metric = FUIKPIMetricItem(string: "\(partnersCount)")
@@ -209,6 +212,11 @@ class DashboardViewController: UITableViewController, SAPFioriLoadingIndicator, 
     @objc func handleKpiTap2(_ sender: UITapGestureRecognizer) {
         
         self.performSegue(withIdentifier: "showProducts", sender: nil)
+        
+    }
+    @objc func handleKpiTap3(_ sender: UITapGestureRecognizer) {
+        
+        self.performSegue(withIdentifier: "showContacts", sender: nil)
         
     }
     

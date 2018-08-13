@@ -26,6 +26,7 @@
                         <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetail" id="kGw-jq-MZr"/>
                         <segue destination="A5W-40-VOg" kind="show" identifier="showSalesOrderDetailScanner" id="YHM-sC-LKp"/>
                         <segue destination="IUs-0w-W1j" kind="show" identifier="showProductDetails" id="fv6-Uw-AVf"/>
+                        <segue destination="KOc-iD-C4b" kind="show" identifier="showContacts" id="4fd-3S-hkC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hpg-Yc-b5e" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -156,6 +157,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GNa-o3-k3n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="970" y="-294"/>
+        </scene>
+        <!--Contact View Controller-->
+        <scene sceneID="9Ye-2Y-ajO">
+            <objects>
+                <viewController storyboardIdentifier="ContactViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="KOc-iD-C4b" customClass="ContactViewController" customModule="SapCiscoTuto" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="w8r-5a-6C8">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="w8r-5a-6C8" id="P7G-rn-qhH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DVv-lf-984" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2939" y="-1126"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
